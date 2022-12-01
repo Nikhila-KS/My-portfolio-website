@@ -1,0 +1,124 @@
+/* display background color black on navbar scroll */
+.nav-link {
+    color: rgb(6, 124, 167) !important;
+    text-shadow:white;
+    font-size: large; 
+    font-weight: 700;
+
+    }
+.navbarScroll.navbarDark {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: #2d0479;
+    text-shadow: #2d0479;
+    color: #000;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/bg1.jpg');
+    background-size:cover;
+    position:relative;
+}
+.bgimage2 {
+    height:180vh;
+    background: url('images/bg2.jpg');
+    background-size:cover;
+    position:relative;
+}
+.bgimage3 {
+    height: 90vh;
+    width:150vh;
+    align-items: center;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    background: url('images/bg3.jpg');
+    background-size:cover;
+    position:relative;
+    
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:url("images/bg2.jpg"); /* Black background with opacity */
+    /* z-index: 2; Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+    text-align: center;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+p{
+    text-align: left;
+    text-decoration-color: #2f19bc;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    color: rgb(9, 0, 128);
+    font-size: 46px;
+    cursor: pointer;
+    text-align: center;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #110372;
+    text-align: center;
+}
+.fab {
+    color: #000000;
+    text-align: center;
+}
+/* footer styling */
